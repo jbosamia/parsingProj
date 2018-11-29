@@ -37,7 +37,7 @@ public class ReadXMLFileUsingSaxparser extends DefaultHandler {
               //sp.parse("/TestServlet/bank.xml", handler);
               sp.parse(f, handler);
              
-              return handler.readList();
+              return handler.readList(); 
 
        }
 
