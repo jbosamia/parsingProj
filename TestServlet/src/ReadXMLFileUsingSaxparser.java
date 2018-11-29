@@ -22,7 +22,7 @@ public class ReadXMLFileUsingSaxparser extends DefaultHandler {
        /** The main method sets things up for parsing */
        public ArrayList<Account> testingParsing(HttpServletRequest request, HttpServletResponse response) throws IOException, SAXException,
                      ParserConfigurationException {
-              File f = new File("C:\\Users\\jbosamia\\XML Parsing\\TestServlet\\Bank.xml");
+              File f = new File("C:\\Users\\jbosamia\\git\\TestServlet\\Bank.xml");
               
               //Create a "parser factory" for creating SAX parsers
               SAXParserFactory spfac = SAXParserFactory.newInstance();
